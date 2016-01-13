@@ -1,5 +1,5 @@
 FROM ubuntu:14.04.3
-MAINTAINER Peter Mescalchin "peter@magnetikonline.com"
+MAINTAINER Peter Mescalchin <peter@magnetikonline.com>
 
 RUN apt-get update && apt-get -y upgrade
 RUN apt-get -y install checkinstall cmake libgcrypt20-dev libqt5x11extras5-dev make qt4-default qtbase5-dev qttools5-dev qttools5-dev-tools zlib1g-dev
