@@ -13,10 +13,10 @@ $ ./build.sh
 $ ./extractdeb.sh
 # package extracted from container
 
-$ ls -l keepassx_2.0-1_amd64.deb
--rw-r--r-- 1 root root 450022 Dec 7 21:45 keepassx_2.0-1_amd64.deb
+$ ls -l keepassx_2.0.2-1_amd64.deb
+-rw-r--r-- 1 root root 453178 Feb 2 21:36 keepassx_2.0.2-1_amd64.deb
 
-$ sudo dpkg -i keepassx_2.0-1_amd64.deb
+$ sudo dpkg -i keepassx_2.0.2-1_amd64.deb
 # installing package to host system...
 
 # KeePassX requires libgcrypt.so.20, lets install
