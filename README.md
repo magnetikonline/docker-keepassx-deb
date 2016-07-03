@@ -3,6 +3,8 @@ Creates a [KeePassX 2.0](https://www.keepassx.org) binary deb distribution artif
 
 Docker image uses [Ubuntu 16.04LTS](https://hub.docker.com/_/ubuntu/) as base with deb package produced using [checkinstall](http://asic-linux.com.mx/~izto/checkinstall/).
 
+Image has also been pushed to [Docker Hub](https://hub.docker.com/r/magnetikonline/keepassxdeb/).
+
 ## Usage
 With Docker installed and working on host system:
 
@@ -10,11 +12,14 @@ With Docker installed and working on host system:
 $ ./build.sh
 # waiting... as Docker builds image
 
+# or alternatively to ./build.sh:
+# $ docker pull magnetikonline/keepassxdeb
+
 $ ./extractdeb.sh
 # package extracted from container
 
 $ ls -l keepassx_2.0.2-1_amd64.deb
--rw-r--r-- 1 root root 459998 Apr 27 17:01 keepassx_2.0.2-1_amd64.deb
+-rw-r--r-- 1 root root 461896 Jul 3 10:37 keepassx_2.0.2-1_amd64.deb
 
 $ sudo dpkg -i keepassx_2.0.2-1_amd64.deb
 # installing package to host system...

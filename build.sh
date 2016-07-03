@@ -1,3 +1,3 @@
 #!/bin/bash -e
 
-docker build --tag magnetikonline/buildkeepassx .
+docker build --tag magnetikonline/keepassxdeb .
