@@ -3,4 +3,6 @@
 DIRNAME=$(dirname "$0")
 
 
-docker build --tag magnetikonline/keepassxdeb "$DIRNAME"
+docker build \
+	--tag magnetikonline/keepassxdeb \
+	"$DIRNAME"
