@@ -1,11 +1,13 @@
 # KeePassX 2.0 Dockerfile
+
 Creates a [KeePassX 2.0](https://www.keepassx.org) binary deb distribution artifact, suitable for installation under Ubuntu (tested with 16.04LTS) and possibly Debian/variants.
 
-Docker image uses [Ubuntu 16.04LTS](https://hub.docker.com/_/ubuntu/) as base with deb package produced using [checkinstall](http://asic-linux.com.mx/~izto/checkinstall/).
+Docker image uses [Ubuntu 16.04LTS](https://hub.docker.com/_/ubuntu/) as base with deb package produced using [checkinstall](https://asic-linux.com.mx/~izto/checkinstall/).
 
 Image has also been pushed to [Docker Hub](https://hub.docker.com/r/magnetikonline/keepassxdeb/).
 
 ## Usage
+
 With Docker installed and working on host system:
 
 ```sh
