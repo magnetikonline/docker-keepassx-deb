@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Peter Mescalchin <peter@magnetikonline.com>
+LABEL maintainer="Peter Mescalchin <peter@magnetikonline.com>"
 
 ENV VERSION 2.0.3
 
